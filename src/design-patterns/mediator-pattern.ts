@@ -78,7 +78,7 @@ const chatRoom = new ChatRoom(thegrefg, elrubius);
 thegrefg.sendMessage("elrubius", "Hola, como estás?");
 thegrefg.sendMessage("elrubius", "Espero te encuentres muy bien...");
 
-elrubius.sendMessage("thegreft", "Hola Ricardo! Estoy bien!");
+elrubius.sendMessage("thegrefg", "Hola Ricardo! Estoy bien!");
 
 thegrefg.printMessages();
 elrubius.printMessages();
