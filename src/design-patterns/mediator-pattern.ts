@@ -70,15 +70,15 @@ class ChatRoom implements IChatRoom {
   }
 }
 
-const ricardo = new Collegue("ricardosilvam", "Ricardo", "Silva Manayalle");
-const idis = new Collegue("idisdub", "Idis Dubraska", "Landaeta Guerrero");
+const thegrefg = new Collegue("thegrefg", "David", "Martinez");
+const elrubius = new Collegue("elrubius", "Ruben", "Doblas");
 
-const chatRoom = new ChatRoom(ricardo, idis);
+const chatRoom = new ChatRoom(thegrefg, elrubius);
 
-ricardo.sendMessage("idisdub", "Hola, como estás?");
-ricardo.sendMessage("idisdub", "Espero te encuentres muy bien...");
+thegrefg.sendMessage("elrubius", "Hola, como estás?");
+thegrefg.sendMessage("elrubius", "Espero te encuentres muy bien...");
 
-idis.sendMessage("ricardosilvam", "Hola Ricardo! Estoy bien!");
+elrubius.sendMessage("thegreft", "Hola Ricardo! Estoy bien!");
 
-ricardo.printMessages();
-idis.printMessages();
+thegrefg.printMessages();
+elrubius.printMessages();
