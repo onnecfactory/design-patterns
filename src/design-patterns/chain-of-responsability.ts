@@ -27,7 +27,6 @@ class HandlerA extends BaseHandler {
       super.handle(request);
     }
   }
-  gg(): void {}
 }
 
 class HandlerB extends BaseHandler {
